@@ -1,0 +1,21 @@
+package com.example;
+
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.scene.control.TextField;
+import javafx.scene.layout.GridPane;
+
+public class MainController {
+
+    @FXML
+    private TextField countNums;
+
+    @FXML
+    private GridPane gridPane;
+
+    @FXML
+    void onClickSaveButton(ActionEvent event) {
+
+    }
+
+}
